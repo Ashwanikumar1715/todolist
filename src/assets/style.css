@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-div {
+  min-height: 100vh;
+  background: linear-gradient( to right,rgb(6, 6, 7),rgb(40, 3, 126));
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.child-div {
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.child-div figure img {
+  width: 12rem;
+  height: 16rem;
+}
+
+.child-div figure figcaption {
+  color: #fff;
+  font-size: 2.2rem;
+  padding-top: 2rem;
+  text-transform: capitalize;
+}
+
+input {
+
+  min-width: 40rem;
+  height: 3.4rem;
+  padding: 2rem 1.2rem;
+  font-size: 2.2rem;
+  line-height: 1.42857143;
+  margin-top: 2rem;
+  color: rgb(14, 1, 1);
+  background-color: #f5f3f3;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+}
+
+input,
+input:focus,
+input:active,
+input:active:focus {
+  border: none;
+  padding: 2.3rem 1.5rem;
+  outline: none;
+}
+
+
+.todo-btn {
+  width: 5rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 5rem !important;
+}
+
+.fa {
+  margin-left: -2.5rem;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  background-color: #fff;
+  background-image: none;
+  color: #000607;
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  font-size: 2rem;
+}
+.fa:hover {
+  color: rgb(47, 214, 122);
+}
+
+
+.showItems {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.eachItem {
+  background: #fff;
+  padding: 1.2rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+  margin-left: 1rem;
+  min-width: 40rem;
+  word-break: break-word;
+  background:linear-gradient(to right, rgb(48, 241, 18),rgb(2, 87, 46));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eachItem:hover {
+  background: rgb(249, 249, 252);
+  color: rgb(85, 41, 220);
+}
+
+.showItems .eachItem h3 {
+  padding-left: 1rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.fa-trash-alt,
+.fa-edit {
+
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  color: rgb(251, 251, 251);
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  font-size: 2rem;
+}
+
+.addItems .fa-edit {
+  color: rgb(246, 16, 219);
+}
+
+.fa-edit {
+  margin-left: -3.5rem;
+}
+
+
+.eachItem:hover .fa-trash-alt {
+  color: rgb(214, 47, 61);
+}
+
+.eachItem:hover .fa-edit {
+  color: rgb(191, 22, 243);
+}
+
+.eachItem:hover h3 {
+  color: rgb(85, 41, 220);
+}
+
+.btn {
+  letter-spacing: 0.1em;
+  color: #000607;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  box-shadow: 0 0 10px grey;
+  background: linear-gradient(to left, rgb(213, 185, 185),rgb(78, 75, 74));
+}
+.btn:hover {
+  text-decoration: none;
+  background: linear-gradient(to left, rgb(213, 185, 185),rgb(255, 119, 0));
+}
+
