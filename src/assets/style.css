@@ -168,3 +168,13 @@ input:active:focus {
   background: linear-gradient(to left, rgb(213, 185, 185),rgb(255, 119, 0));
 }
 
+@media screen and (max-width:428px) {
+  input {
+
+    min-width: 27rem;
+  }
+  .eachItem{
+    min-width: 27rem;
+  }
+}
+
